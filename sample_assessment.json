@@ -1,0 +1,46 @@
+{
+  "input": {
+    "health_concern": "I am facing skin allergy on my whole body since last week.",
+    "age_group": "Teenager",
+    "duration": "4 to 7 days",
+    "severity": "Moderate",
+    "other_symptoms": [
+      "Headache",
+      "Fever",
+      "Body pains"
+    ],
+    "medical_history": "Previous surgery",
+    "current_medicines": "Medicines, names not specified",
+    "known_triggers": "Pollution",
+    "preferred_language": "English",
+    "user_mode": "Doctor-Visit Preparation",
+    "desired_output": "All Outputs"
+  },
+  "navigation_result": {
+    "emergency_warning_detected": "No explicit emergency warning sign was provided, but the information is incomplete.",
+    "urgency": "Urgent professional evaluation recommended",
+    "recommended_next_step": "Involve a parent or trusted adult and arrange prompt in-person evaluation by a qualified healthcare professional.",
+    "do_not_do": [
+      "Do not diagnose yourself",
+      "Do not start, stop, or change medicines without professional advice",
+      "Do not delay if symptoms worsen"
+    ],
+    "seek_emergency_help_if": [
+      "Difficulty breathing or swallowing",
+      "Swelling of the face, lips, tongue, or throat",
+      "Fainting, confusion, or severe weakness",
+      "Rapidly spreading rash",
+      "Blistering or peeling skin",
+      "Very high or worsening fever"
+    ],
+    "missing_information": [
+      "Exact medicine names and doses",
+      "Measured temperature",
+      "Rash appearance",
+      "Whether symptoms are worsening",
+      "Recent foods, products, medicines, or exposures",
+      "Details and date of previous surgery"
+    ]
+  },
+  "disclaimer": "This is an AI-generated care-navigation summary, not a diagnosis or treatment plan. Consult a qualified healthcare professional."
+}
