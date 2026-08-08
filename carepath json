@@ -1,0 +1,160 @@
+{
+  "project_name": "CarePath AI",
+  "subtitle": "Health Confusion to Next Step",
+  "platform": "AWS PartyRock",
+  "project_type": "AI health-navigation assistant",
+  "disclaimer": {
+    "summary": "CarePath AI provides general health information and care-navigation support. It is not a doctor, does not provide a medical diagnosis, and cannot replace a qualified healthcare professional.",
+    "emergency_note": "For life-threatening emergencies, contact local emergency services immediately."
+  },
+  "project_overview": "This tool helps users move from health confusion to the right next step by organizing symptoms, suggesting questions for a doctor, and helping them understand when and where to seek care.",
+  "author": {
+    "first_name": "Soni",
+    "last_name": "Singh",
+    "gender": "Female",
+    "date_of_birth": "2006-10-10"
+  },
+  "user_profile": {
+    "age_group": "Teenager",
+    "user_mode": "Doctor-Visit Preparation",
+    "preferred_language": "English"
+  },
+  "inputs": {
+    "health_concern": "I am facing skin elergy, this is on whole body and that is since from last week.",
+    "duration": "4 to 7 days",
+    "severity": "Moderate",
+    "other_symptoms": ["headache", "fewer", "bodypains pre"],
+    "relevant_medical_history": "previous surgery was done",
+    "current_medicines": "medications",
+    "allergies": "because of pollution i face it usually",
+    "desired_output": "All Outputs"
+  },
+  "safety_alert": {
+    "status": "No Immediate Emergency Warning Signs Detected",
+    "message": "Based on the information shared, no immediate emergency warning signs were identified. This does not guarantee safety; always trust your instincts and seek care if you feel something is seriously wrong."
+  },
+  "health_navigation_assessment": {
+    "main_concern": "Whole-body skin allergy (ongoing ~1 week)",
+    "other_symptoms": ["Headache", "Fever", "Body pains"],
+    "severity": "Moderate",
+    "age_group": "Teenager",
+    "observations": [
+      "Widespread skin reaction along with fever, headache, and body pains may deserve timely medical evaluation.",
+      "A possible viral or allergic reaction may need professional assessment.",
+      "A systemic response or medication/environment-related cause may need proper diagnosis."
+    ]
+  },
+  "recommended_next_steps": {
+    "action": "See a doctor promptly",
+    "details": [
+      "Visit a general physician or pediatrician as soon as possible, ideally within 24 to 48 hours.",
+      "A doctor can properly examine the rash and run any necessary tests."
+    ],
+    "urgent_warning_signs": [
+      "Difficulty breathing or swallowing",
+      "Swelling of the face, lips, or throat",
+      "Rash spreading very rapidly",
+      "High fever that is not coming down",
+      "Feeling confused, very weak, or faint"
+    ]
+  },
+  "appointment_tips": [
+    "Note when the rash first appeared and how it has changed.",
+    "Think about any new foods, soaps, detergents, medications, or environments you were exposed to before it started.",
+    "Avoid scratching the affected areas.",
+    "Do not apply any new creams or medications without a doctor’s guidance.",
+    "Stay well hydrated."
+  ],
+  "plain_language_summary": {
+    "about_you": {
+      "age_group": "Teenager",
+      "mode": "Preparing for a Doctor's Visit"
+    },
+    "summary": "The user has been experiencing a skin allergy across the whole body for about the past week (4 to 7 days). The reaction is moderate and is accompanied by headaches, fever, and body pains. Pollution is a known trigger, and there is a history of previous surgery and current medication use."
+  },
+  "doctor_visit_preparation_summary": {
+    "main_concern": "Moderate skin allergy affecting the entire body for approximately one week",
+    "timeline": {
+      "onset": "Approximately 4 to 7 days ago",
+      "progression": "Present across the whole body since last week",
+      "pattern": "Recurring condition possibly linked to pollution exposure"
+    },
+    "severity": "Moderate",
+    "associated_symptoms": ["Headache", "Fever", "Body pains / Body aches"],
+    "medical_history": ["Previous surgery"],
+    "medications": ["Taking medications, exact names not specified"],
+    "known_allergies": ["Sensitivity or allergic response to pollution/environmental factors"],
+    "doctor_questions": [
+      "Could my skin allergy, fever, headache, and body pains be connected to the same cause?",
+      "Could pollution be triggering this reaction?",
+      "Could the previous surgery affect how my body is reacting now?",
+      "Could my current medications be contributing to this reaction?",
+      "What warning signs mean I need urgent or emergency care?",
+      "Would any tests help identify the trigger?",
+      "How long should recovery take?",
+      "Are any lifestyle changes helpful?",
+      "Do fever and body pains suggest immune involvement?",
+      "Should any medications be paused or adjusted?",
+      "When should I return for follow-up?",
+      "Would a referral to a skin or allergy specialist help?"
+    ]
+  },
+  "symptom_tracking_plan": {
+    "purpose": "Track the skin allergy and associated symptoms daily to help identify patterns and triggers.",
+    "daily_log_fields": [
+      "Date",
+      "Time of entry",
+      "Where the rash is on the body",
+      "Whether it has spread since yesterday",
+      "How it looks",
+      "Severity rating",
+      "Itching",
+      "Oozing, bleeding, or open skin",
+      "Headache",
+      "Fever",
+      "Body pains",
+      "Fatigue",
+      "New symptoms",
+      "Possible triggers",
+      "Medicines taken",
+      "What helped or made it worse",
+      "Overall notes"
+    ],
+    "urgent_attention_signs": [
+      "Difficulty breathing, wheezing, or chest tightness",
+      "Swelling of the face, lips, tongue, or throat",
+      "Dizziness, fainting, or feeling like passing out",
+      "Rapidly spreading rash within hours",
+      "Blistering, peeling, or raw skin across large areas",
+      "Very high fever that is not coming down",
+      "Confusion, extreme weakness, or difficulty staying awake",
+      "Pain or unusual symptoms near the previous surgery site"
+    ]
+  },
+  "multilingual_support": {
+    "status": "English confirmation shown in the document",
+    "summary": "The app supports health navigation summaries and translations into the selected language."
+  },
+  "ai_safety_review": {
+    "emergency_flag_check": "Partial flags present - elevated caution required",
+    "overconfidence_risk": "High",
+    "missing_information_risk": "High",
+    "medication_and_allergy_considerations": "Must be disclosed to a healthcare professional",
+    "vulnerable_population_check": "Additional care required because the user is a teenager",
+    "overall_confidence": "Low",
+    "recommendation": "Do not generate symptom-specific or treatment-specific guidance; generate care-navigation response only."
+  },
+  "sections": [
+    "PATIENT PROFILE",
+    "HEALTH CONCERN & SYMPTOMS",
+    "MEDICAL BACKGROUND",
+    "PREFERENCES AND OUTPUT SETTINGS",
+    "SAFETY ALERT",
+    "SYMPTOM ANALYSIS",
+    "URGENCY AND NEXT STEPS",
+    "DOCTOR-VISIT PREPARATION",
+    "MULTILINGUAL SUPPORT",
+    "QUESTIONS FOR YOUR DOCTOR",
+    "HEALTH AWARENESS"
+  ]
+}
