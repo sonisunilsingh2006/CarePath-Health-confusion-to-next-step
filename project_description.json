@@ -1,0 +1,44 @@
+{
+  "project_name": "CarePath AI",
+  "subtitle": "Health Confusion to Next Step",
+  "platform": "AWS PartyRock",
+  "category": "Health navigation and awareness",
+  "purpose": "Help users organize health concerns and identify a safer next step without diagnosing or prescribing.",
+  "problem_statement": "People often feel confused about symptoms, urgency, and what information to share with a healthcare professional.",
+  "solution": "CarePath AI converts an everyday health description into a plain-language summary, follow-up questions, urgency guidance, a doctor-visit summary, a symptom-tracking plan, and multilingual support.",
+  "target_users": [
+    "Patients",
+    "Teenagers",
+    "Caregivers",
+    "Parents",
+    "Students",
+    "Community health educators"
+  ],
+  "core_features": [
+    "Symptom understanding",
+    "Smart follow-up questions",
+    "Emergency warning-sign screening",
+    "General urgency guidance",
+    "Doctor-visit preparation",
+    "Symptom journal generation",
+    "Multilingual explanation",
+    "Questions for a healthcare professional",
+    "AI safety and confidence review"
+  ],
+  "limitations": [
+    "Does not diagnose diseases",
+    "Does not prescribe or change medication",
+    "Does not replace a qualified healthcare professional",
+    "Cannot verify user-provided information",
+    "Must not be used as a substitute for emergency services"
+  ],
+  "future_enhancements": [
+    "Voice input",
+    "Accessibility mode",
+    "Caregiver mode",
+    "Secure symptom timeline",
+    "Doctor-approved educational content",
+    "Human healthcare-professional handoff",
+    "Region-specific healthcare directory"
+  ]
+}
