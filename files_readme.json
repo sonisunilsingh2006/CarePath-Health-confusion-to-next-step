@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "filename": "carepath_project_description.json",
+      "description": "Project overview, objectives, features, limitations, and future enhancements."
+    },
+    {
+      "filename": "carepath_partyrock_config.json",
+      "description": "PartyRock input widgets, output widgets, disclaimers, and urgency categories."
+    },
+    {
+      "filename": "carepath_prompts.json",
+      "description": "Prompts for building and operating the PartyRock application."
+    },
+    {
+      "filename": "carepath_sample_assessment.json",
+      "description": "Sample health-navigation input and safe prototype output."
+    },
+    {
+      "filename": "carepath_safety_policy.json",
+      "description": "Safety rules and response requirements for the health application."
+    }
+  ],
+  "note": "These JSON files are a structured version of the CarePath AI document and are intended for a PartyRock prototype. They do not constitute medical advice."
+}
