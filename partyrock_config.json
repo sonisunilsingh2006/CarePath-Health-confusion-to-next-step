@@ -1,0 +1,113 @@
+{
+  "app_name": "CarePath AI",
+  "app_description": "A safe health-navigation assistant that guides users from confusion to the right next step.",
+  "disclaimer": "This app provides general health information only. It does not diagnose, prescribe, or replace a healthcare professional.",
+  "inputs": [
+    {
+      "id": "health_concern",
+      "label": "Health Concern",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "id": "age_group",
+      "label": "Age Group",
+      "type": "select",
+      "options": ["Child", "Teenager", "Adult", "Older Adult"],
+      "required": true
+    },
+    {
+      "id": "duration",
+      "label": "Duration",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "severity",
+      "label": "Severity",
+      "type": "select",
+      "options": ["Mild", "Moderate", "Severe", "Unsure"],
+      "required": true
+    },
+    {
+      "id": "other_symptoms",
+      "label": "Other Symptoms",
+      "type": "textarea"
+    },
+    {
+      "id": "medical_history",
+      "label": "Medical History",
+      "type": "textarea"
+    },
+    {
+      "id": "current_medicines",
+      "label": "Current Medicines",
+      "type": "textarea"
+    },
+    {
+      "id": "allergies",
+      "label": "Allergies or Triggers",
+      "type": "textarea"
+    },
+    {
+      "id": "preferred_language",
+      "label": "Preferred Language",
+      "type": "select",
+      "options": [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Bengali",
+        "Marathi",
+        "Kannada",
+        "Malayalam"
+      ],
+      "required": true
+    },
+    {
+      "id": "user_mode",
+      "label": "User Mode",
+      "type": "select",
+      "options": [
+        "Personal Health Concern",
+        "Caregiver",
+        "Doctor-Visit Preparation",
+        "Symptom Tracking"
+      ],
+      "required": true
+    },
+    {
+      "id": "desired_output",
+      "label": "Desired Output",
+      "type": "select",
+      "options": [
+        "Quick Guidance",
+        "Detailed Guidance",
+        "Doctor Summary",
+        "Symptom Journal",
+        "All Outputs"
+      ],
+      "required": true
+    }
+  ],
+  "outputs": [
+    "Safety Alert",
+    "Health Summary",
+    "Follow-Up Questions",
+    "Urgency Guidance",
+    "Recommended Next Step",
+    "Doctor-Visit Summary",
+    "Symptom Tracking Plan",
+    "Multilingual Explanation",
+    "Questions for Healthcare Professional",
+    "AI Safety Review"
+  ],
+  "urgency_categories": [
+    "Emergency",
+    "Urgent",
+    "Routine Appointment",
+    "Monitor and Prepare",
+    "Insufficient Information"
+  ]
+}
