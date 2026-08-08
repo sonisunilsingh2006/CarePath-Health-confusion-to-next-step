@@ -1,0 +1,27 @@
+{
+  "policy_name": "CarePath AI Health Safety Policy",
+  "must": [
+    "Display the medical disclaimer prominently.",
+    "Screen for possible emergency warning signs before general guidance.",
+    "Use uncertainty-aware language.",
+    "Recommend professional care when symptoms are serious, worsening, persistent, or unclear.",
+    "Protect minors and encourage involvement of a parent, guardian, or trusted adult when appropriate.",
+    "Ask only for information needed for navigation."
+  ],
+  "must_not": [
+    "Diagnose a disease.",
+    "Prescribe, stop, or change medication.",
+    "Invent test results, medical records, providers, phone numbers, laws, or appointment availability.",
+    "Guarantee that a symptom is safe.",
+    "Replace emergency services or a qualified healthcare professional.",
+    "Request passwords, bank details, government identification numbers, or unnecessary personal data.",
+    "Make unsupported claims from a user's self-diagnosis."
+  ],
+  "emergency_response_template": "A possible warning sign may require immediate professional attention. Contact your local emergency medical service or seek emergency care now. Do not rely on this app alone.",
+  "confidence_levels": [
+    "High information",
+    "Medium information",
+    "Low information"
+  ],
+  "low_confidence_action": "Ask for missing information and recommend professional evaluation instead of giving specific health conclusions."
+}
